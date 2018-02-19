@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style type="text/css">
+h1:hover {
+	color: red;
+}
+
+h2 {
+	color: blue;
+}
+
+#h {
+	font-size: 50pt;
+}
+
+.c {
+	text-decoration: underline;
+}
+
+h2.c {
+	font-size: 30pt;
+}
+
+a, p {
+	color: green;
+}
+
+p a {
+	font-size: 20pt;
+}
+</style>
+<!--
+		CSS(Cascading Style Sheet)
+			HTML의 DOM객체에 디자인을 넣을 수 있는 언어
+			
+		선택자 {
+			속성명:값;
+			속성명:값;
+			...
+		}
+		
+		선택자(selector)
+			--기본형--
+			태그명: 이 문서에 존해나느 모든 그 DOM객체들
+			#ID : id가 그거인 DOM객체 (고유하게 한 번)
+			.CLASS : class가 그거인 DOM객체들 (여러개 가능)
+			
+			--가상, 상태--
+			선택자:ACTIVE : 클릭하는 동안
+			선택자:HOVER : 마우스 올라가 있는 동안
+			
+			선택자:LINK : 한 번도 안 갔다온 링크
+			선택자:VISITED : 안 갔다온 링크
+			
+			
+			--혼합형--
+			태그명.CLASS : 태그명과 class가 그거인 DOM객체들
+			선택자1, 선택자2, 선택자3: 여러 선택자 DOM객체들 
+			선택자1 선택자2: 선택자1 속의 선택자2가 그거인 DOM객체들
+		-->
+</head>
+<body>
+	<h1 id="h" class="c">HTML : 홈페이지 뼈대를 구성</h1>
+	<h1>JavaScropt : 홈페이지 이벤트 처리 담당</h1>
+	<h2 class="c">CSS : 홈페이지 디자인 구성</h2>
+	<a class="c" href="https://www.naver.com/">네이버로</a>
+	<p>
+		ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 
+		<a class="c" href="https://www.daum.net/">다음으로</a>
+	</p>
+</body>
+</html>

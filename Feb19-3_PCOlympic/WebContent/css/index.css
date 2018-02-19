@@ -1,0 +1,80 @@
+@charset "EUC-KR";
+
+@font-face {
+	font-family: "DOSMyungjo";
+	src: url("../font/DOSMyungjo.ttf");
+}
+
+body {
+	background-color: #D5D5D5;
+}
+
+#site {
+	font-family: "DOSMyungjo";
+	width: 1000px; /* 가로 사이즈 */
+	/* margin:  4면에 마진 */
+	margin-left: auto;
+	margin-right: auto; /* 가운데 정렬 */
+}
+
+#siteTitle {
+	height: 100px;
+	font-size: 20pt;
+	font-weight: 900; /* 굵게 */
+	padding-left: 30px; /* 내부 여백 */
+}
+
+#p {
+	color: #B2EBF4;
+	font-size: 40px;
+	text-shadow: 3px 5px 5px red; /* x축 y축 그라데이션 얼마나 색깔 */
+}
+
+#c {
+	color: #FFE08C;
+	font-size: 40px;
+	text-shadow: 3px 5px 5px green;
+}
+
+/*
+선 종류
+--기본--
+solid
+dotted
+dashed
+double
+
+--액자형--
+inset
+outset
+
+--버튼형--
+ridge
+groove
+*/
+#siteMenuArea {
+	border: green dashed 5px; /* 색깔 종류 두께 */
+	border-radius: 20px; /* 모서리 깎기 */
+	box-shadow: 5px 5px 15px red; /* 그림자 */
+}
+
+#siteMenuArea table tr td {
+	width: 150px;
+}
+
+a {
+	-webkit-transition: all 0.1s ease-in;
+	font-weight: 600;
+	font-size: 14pt;
+	text-decoration: none; /* 밑줄 지우기 */
+	color: white; 
+}
+
+a:hover {
+	color: yellow;
+	font-size: 20pt;
+}
+
+a:active {
+	color: red;
+}
