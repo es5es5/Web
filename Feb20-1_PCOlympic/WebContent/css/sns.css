@@ -1,0 +1,26 @@
+@charset "EUC-KR";
+
+.snsImg{
+	max-width:30px; /* 50보다 작은건 그대로, 50보다 큰거는 50으로 */
+	/* 그림은 가로사이즈만 조절하면 세로는 원본 비율에 따라 자동 조절 */
+}
+.snsImgTd{
+	width: 35px;
+}
+.snsIdTd{
+	color:#0277BD;
+}
+.snsTbl{
+	width:500px;
+	border:#29B6F6 solid 2px;
+	box-shadow:10px 10px 20px #01579B;
+	border-radius:10px;
+	margin-bottom:20px;
+	padding:7px;
+	font-size:10.5pt;
+	font-weight: 600;
+	-webkit-transition:all 0.2s ease-out;
+}
+.snsTbl:hover{
+	background-color: #B3E5FC;
+}

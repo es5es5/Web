@@ -1,0 +1,20 @@
+@charset "EUC-KR";
+
+.menu {
+	float:left;
+	width: 100px;
+	border: #F29661 outset 5px;
+	font-weight: 900;
+}
+
+.menu:hover{
+	background-color: #FAED7D;
+}
+
+.mImg {
+	max-width: 90px;
+}
+
+.mName {
+	color: #E65100;
+}

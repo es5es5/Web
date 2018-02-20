@@ -1,0 +1,80 @@
+@charset "EUC-KR";
+
+@font-face {
+	font-family: "DOSMyungjo";
+	src: url("../font/DOSMyungjo.ttf");
+}
+
+#site {
+	width: 1000px; /* 가로 사이즈 */
+	margin-left: auto;
+	margin-right: auto; /* 테이블 가운데 정렬 */
+}
+
+#siteTitle {
+	font-family: "DOSMyungjo";
+	height: 100px;
+	font-size: 20pt;
+	font-weight: 900; /* 글자 굵게 */
+	padding-left: 30px; /* 내부 여백 */
+}
+
+#p {
+	color: #29B6F6;
+	font-size: 35pt;
+	text-shadow: 3px 3px 3px #81D4FA; /* 그림자 */
+}
+
+#c {
+	color: #FFC107;
+	font-size: 32pt;
+	text-shadow: 3px 3px 3px #FFE082;
+}
+
+#d {
+	font-size: 29pt;
+	text-shadow: 3px 3px 3px #BDBDBD;
+}
+
+#g {
+	color: green;
+	font-size: 26pt;
+	text-shadow: 3px 3px 3px #A5D6A7;
+}
+
+#o {
+	color: red;
+	font-size: 23pt;
+	text-shadow: 3px 3px 3px #EF9A9A;
+}
+
+#siteMenuArea {
+	border-radius: 10px; /* 모서리 깎기 */
+	background-color: #0277BD;
+	height: 50px;
+	box-shadow: 5px 5px 15px #01579B; /* 그림자 */
+	padding-left: 30px;
+}
+
+#siteMenuArea table tr td {
+	width: 150px;
+}
+
+a {
+	color: white;
+	font-weight: 600;
+	font-size: 14pt;
+	text-decoration: none; /* a의 밑줄 없애기 */
+}
+
+a:hover {
+	color: #B2DFDB;
+}
+
+a:active {
+	color: black;
+}
+
+#siteContentArea {
+	padding-top: 30px;
+}

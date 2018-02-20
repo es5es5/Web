@@ -1,0 +1,20 @@
+@charset "EUC-KR";
+
+#rankTbl {
+	margin-top: 50px;
+	width: 550px;
+	height: 350px;
+	box-shadow: 10px 10px 20px #01579B;
+	font-size: 10.5pt;
+	background-color: #29B6F6;
+	color: white;
+	border-spacing: 0px; /* td 사이의 간격 */
+}
+.rankData{
+	-webkit-transition: all 0.2s ease-out;
+	background-color: white;
+	color:black;
+}
+.rankData:hover{
+	background-color: #B3E5FC;
+}
